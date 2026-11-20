@@ -1,0 +1,29 @@
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+.DS_Store
+
+# Temporary SolidWorks lock files
+~$*
+
+# Logs
+*.log
