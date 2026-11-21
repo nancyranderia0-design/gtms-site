@@ -27,3 +27,24 @@ Thumbs.db
 
 # Logs
 *.log
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Node dependencies
+node_modules/
+frontend/node_modules/
+
+# Build files
+dist/
+frontend/dist/
+
+# Python environment
+venv/
+backend/venv/
+__pycache__/
+*.pyc
+
+# Python secrets
+backend/.env
